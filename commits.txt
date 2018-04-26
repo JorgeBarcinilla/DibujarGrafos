@@ -1,0 +1,11 @@
+commit aa2df368abf1b9ff6072f3ae579c871db2c7bc7d
+Author: Jorge <Jorgepalacio1995@gmail.com>
+Date:   Wed Apr 25 23:45:48 2018 -0500
+
+    cambie el color de pInfo2 del GUI
+
+commit e087a983fb207bfc424c214f205e8028d53133d5
+Author: Jorge <Jorgepalacio1995@gmail.com>
+Date:   Wed Apr 25 23:38:51 2018 -0500
+
+    Corregi el metodo de camino corto djistra
