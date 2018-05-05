@@ -219,7 +219,7 @@ public class Gui extends JFrame{
         JPanel pInfo2 = new JPanel();
         pInfo2.setBounds(850, 550, 550, 250);
         pInfo2.setLayout(null);
-        pInfo2.setBackground(new Color(240, 240, 240));
+        pInfo2.setBackground(new Color(250, 250, 250));
         pInfo2.setBorder(createTitledBorder(createLineBorder(new Color(0, 0, 0)), "MATRIZ DE ACCESO", TitledBorder.CENTER, TitledBorder.DEFAULT_POSITION, new Font("Comic Sans MS", 1, 14)));
 
         JTable tabla2 = new JTable();

@@ -81,7 +81,7 @@ public class Grafo {
             }
             if(!this.Vertices.get(i).obtenerNombre().equals(vert.obtenerNombre()))
             {
-                vert.crearAcceso(this.Vertices.get(i).obtenerNombre(), "" + 999);
+                vert.crearAcceso(this.Vertices.get(i).obtenerNombre(), "" + 100000);
             }
             this.Vertices.get(i).crearAcceso(vert.obtenerNombre(), "" + num);
             

@@ -47,7 +47,7 @@ public class caminoCorto implements ActionListener {
             String pes;
             String[] cami=info[1].split("-");
             this.camino.removeAll();
-            if(info[0].equals("999"))
+            if(info[0].equals("100000"))
             {
                 pes="N/A";
             }

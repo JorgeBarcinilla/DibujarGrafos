@@ -11,6 +11,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import javax.swing.JButton;
 import java.awt.Color;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -35,41 +36,6 @@ public class movimientoVert implements MouseListener  {
    
     @Override
     public void mouseClicked(MouseEvent e) {
-        
-        boolean est = false;
-        int id=-1;
-        for (int i = 0; i < this.panel.getComponentCount(); i++) {
-            
-            if((this.panel.getComponent(i).getBackground()==Color.yellow) && (this.vertise != (JButton)this.panel.getComponent(i)))
-            {
-                id=i;
-                est=true;
-                break;
-            }
-            
-        }
-        
-        if(est)
-        {
-            System.out.println("se creo relacion");
-            this.panel.getComponent(id).setBackground(Color.LIGHT_GRAY);
-            this.vertise.setBackground(Color.LIGHT_GRAY);
-        }
-        else
-        {
-            if (this.vertise.getBackground() == Color.LIGHT_GRAY) 
-            {
-                this.vertise.setBackground(Color.yellow);
-            } 
-            else 
-            {
-                if (this.vertise.getBackground() == Color.yellow) 
-                {
-                    this.vertise.setBackground(Color.LIGHT_GRAY);
-                }
-            }
-        
-        }
     }
 
     @Override

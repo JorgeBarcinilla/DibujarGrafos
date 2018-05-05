@@ -72,6 +72,7 @@ class crearVertise implements ActionListener {
                 vert.setBounds(alt.nextInt(1000) + 20, alt.nextInt(520)+20, 100, 20);
                 vert.setToolTipText(this.nomVertise.getText());
                 vert.addMouseListener(new movimientoVert(vert,this.pGraf,this.grafo));
+                vert.addMouseListener(new crearRelacion2(vert,this.grafo,this.tabla,this.tabla2,this.pGraf));
                 vert.setBackground(Color.LIGHT_GRAY);
                 vert.setFont(new Font("Comic Sans MS", 4, 14));
                 vert.setBorder(new SoftBevelBorder(BevelBorder.RAISED, null ,new Color(0, 0, 0), new Color(0, 0, 0), Color.DARK_GRAY));
